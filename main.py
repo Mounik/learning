@@ -42,7 +42,7 @@ while True:
     print("4. Modifier un item")
     print("5. Quitter")
 
-    choice = input("Entrez votre choix : ")
+    choice = input("👉 Entrez votre choix : ")
 
     if choice == "1":
         ajouter_item()
@@ -56,4 +56,4 @@ while True:
         print("Au revoir!")
         break
     else:
-        print("Choix invalidée. Veuillez essayer à nouveau.")
+        print("Choix invalide. Veuillez essayer à nouveau.")
