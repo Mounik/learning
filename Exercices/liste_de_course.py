@@ -56,4 +56,4 @@ while True:
         print("Au revoir!")
         break
     else:
-        print("Choix invalidée. Veuillez essayer à nouveau.")
+        print("Choix invalide. Veuillez essayer à nouveau.")
