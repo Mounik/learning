@@ -14,7 +14,7 @@ while player_health > 0 and enemy_health > 0:
         print("\n--- Nouveau Tour ---")
         print(f"Votre santé : {player_health} | Santé de l'ennemi : {enemy_health}")
         print(f"Potions restantes : {potions}")
-        
+
         # Demande à l'utilisateur de choisir une action
         action = input("Souhaitez-vous attaquer (1) ou utiliser une potion (2) ? ")
 

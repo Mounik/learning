@@ -29,7 +29,7 @@ while True:
             print("Vous n'avez plus de potions...")
             continue
 
-    
+
     if ENEMY_HEALTH <= 0:
         print("Tu as gagné ?")
         break
