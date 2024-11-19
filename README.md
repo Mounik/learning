@@ -1,4 +1,4 @@
-# Formation Python DocString Udemy v0.0.1
+# Formation Python DocString Udemy v0.0.2
 
 ## Pourquoi ce repo
 Je compte garder mes exercices de python pour me rappeler certains concept.
