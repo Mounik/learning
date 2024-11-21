@@ -44,3 +44,39 @@ p.write_text("Bonjour")
 # Lire le fichier
 p.read_text()
 # print(p.read_text())
+
+# Voir tout ce qui est contenu dans un dossier
+for f in Path.home().iterdir():
+    print(f.name)
+
+# Voir tout les dossiers
+[f for f in Path.home().iterdir() if f.is_dir()]
+
+# Voir tout les fichiers
+[f for f in Path.home().iterdir() if f.is_file()]
+
+# voir tout les fichiers avec une extension précise
+p = Path.home() / "Pictures"
+for f in p.glob("*.jpg"):
+    print(f.name)
+# Pour la recusrion utiliser rglob
+
+# Voir tout ce qui est contenu dans un dossier
+for f in Path.home().iterdir():
+    print(f.name)
+
+# Voir tout les dossiers
+[f for f in Path.home().iterdir() if f.is_dir()]
+
+# Voir tout les fichiers
+[f for f in Path.home().iterdir() if f.is_file()]
+
+# Voir tout les fichiers avec une extension précise
+p = Path.home() / "Pictures"
+for f in p.glob("*.jpg"):
+    print(f.name)
+# Pour la recusrion utiliser rglob
+
+# Modifier un nom de fichier
+p = Path.home() / "Pictures" / "image.png"
+p.parent / (p.stem + "_lowres" + p.suffix)
