@@ -1,5 +1,5 @@
 chemin = "/home/mounik/learning/fichier.txt"
 
-with open(chemin, "r", "encoding='utf-8'") as f:
+with open(chemin, "r") as f:
     contenu = f.read().splitlines()
     print(contenu)
