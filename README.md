@@ -8,3 +8,6 @@ C'est comme un Bloc Notes !!
 - [liste de courses](/Exercices/liste_de_course.py) et sa [correction](/Exercices/liste_de_course_correction.py)
 - [nombre mystère](/Exercices/nombre_mystere.py), [nombre_mystere2](/Exercices/nombre_mystere2.py) et sa [correction](/Exercices/nombre_mystere_correction.py)
 - [rpg_online](/Exercices/rpg_online.py) et sa [correction](/Exercices/rpg_online_correction.py)
+
+  ## Stats
+  ![Alt](https://repobeats.axiom.co/api/embed/94a960fa702720489383b8907cba21080ab56bd3.svg "Repobeats analytics image")
