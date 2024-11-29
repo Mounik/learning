@@ -7,6 +7,7 @@ txt, pptx, csv, xls, odp, pages : Documents
 autres : Divers
 """
 from pathlib import Path
+import sys
 
 dirs = {
         ".mp3": "Musique",
@@ -28,9 +29,12 @@ dirs = {
 
 # On désigne le dossier a trier
 tri_dir = Path.home() / "python" / "learning" / "src" / "data"
+# Ou on récupère l'argument du chemin du dossier à trier
+# tri_dir = sys.argv[-1]
 # Compréhension de liste pour obtenir la liste des fichiers du dossier a trier
 files = [f for f in tri_dir.iterdir() if f.is_file()]
-# On parcourt chaque fichier et on déplace le fichier dans le bon dossier en fonction de l'extension du fichier.
+# On parcourt chaque fichier et on déplace le fichier dans le bon dossier en fonction de 
+# l'extension du fichier.
 # Si l'extension n'est pas dans la liste, on la place dans le dossier "Divers".
 for f in files:
     # On crée le chemin du dossier de destination en fonction de l'extension du fichier.
