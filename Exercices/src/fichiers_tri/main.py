@@ -28,7 +28,7 @@ dirs = {
         }
 
 # On désigne le dossier a trier
-tri_dir = Path.home() / "python" / "learning" / "src" / "data"
+tri_dir = Path.home() / "python" / "learning" / "src" / "fichiers_tri" / "data"
 # Ou on récupère l'argument du chemin du dossier à trier
 # tri_dir = sys.argv[-1]
 # Compréhension de liste pour obtenir la liste des fichiers du dossier a trier

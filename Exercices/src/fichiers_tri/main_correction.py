@@ -25,7 +25,7 @@ EXTENSIONS_MAPPING = {".mp3": "Musique",
                       ".pages": "Documents"
                       }
 
-BASE_DIR = Path('/home/mounik/python/learning/src/data')
+BASE_DIR = Path('/home/mounik/python/learning/src/fichiers_tri/data')
 
 # On récupère tous les fichiers dans le dossier de base
 files = [f for f in BASE_DIR.iterdir() if f.is_file()]
